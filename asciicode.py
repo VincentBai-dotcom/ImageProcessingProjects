@@ -45,11 +45,6 @@ def to_binary(image, threshold):
 
 
 image = read("../convert_to_ascii/3.jpg")
-#image = image.convert("L")
-#to_binary2(image,60).show()
-#arr = flatten(image)
-#arr = to_binary2(arr,150)
-#w,h = image.size
-#build(arr, w).show()
+#here it can be any image.
 to_binary(image,150).show()
 
