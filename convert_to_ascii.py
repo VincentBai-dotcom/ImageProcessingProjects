@@ -48,6 +48,7 @@ def start(skip, image):
 
 
 image = read("8f58e30690f7cc68e2b3731e7927e93.jpg")
+#here it can be any images
 image = image.convert("L")
 start(3, image)
 
